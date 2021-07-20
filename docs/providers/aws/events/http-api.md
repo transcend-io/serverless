@@ -14,9 +14,9 @@ layout: Doc
 
 # HTTP API
 
-HTTP APIs are a special flavored [API Gateway](https://aws.amazon.com/api-gateway/) implementation which offer more features and improved performance. They have some benefits and drawbacks compared to the traditional API Gateway REST APIs. Read the differences in the [AWS Documentation](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html).
+HTTP APIs are part of [API Gateway v2](https://aws.amazon.com/api-gateway/), which offers more features and improved performance at a lower cost. They have some drawbacks compared to traditional [API Gateway v1 REST APIs](./apigateway.md): read the differences in the [AWS Documentation](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-vs-rest.html).
 
-The Serverless Framework makes it possible to setup [API Gateway](https://aws.amazon.com/api-gateway/) HTTP APIs via the `httpApi` event.
+The Serverless Framework makes it possible to setup [API Gateway HTTP APIs](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api.html) via the `httpApi` event.
 
 ## Event Definition
 
